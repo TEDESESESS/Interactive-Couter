@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.counter-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#counter-value {
+    font-size: 80px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 30px;
+    color: #555; /* Default gray for zero */
+}
+
+.button-group button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#decrease-btn { background-color: #ff6b6b; color: white; }
+#decrease-btn:hover { background-color: #fa5252; }
+
+#reset-btn { background-color: #ced4da; color: #333; }
+#reset-btn:hover { background-color: #adb5bd; }
+
+#increase-btn { background-color: #51cf66; color: white; }
+#increase-btn:hover { background-color: #40c057; }
